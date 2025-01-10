@@ -136,6 +136,7 @@ em {
 p {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 p:hover {
   color: rgba(0, 0, 0, 1);
