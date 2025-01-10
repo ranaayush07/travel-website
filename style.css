@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  width: 50%;
+}
+.icon a {
+  font-size: 30px;
+}
+.logo img {
+  width: 20%;
+}
+.logo {
+  width: 66%;
+}
+.hero {
+  background-image: url("images/hero.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+
+  margin-top: -200px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  background-color: rgba(0, 0, 0, 0.4);
+  align-self: center;
+  margin: 0 auto;
+  padding: 40px 40px;
+  border-radius: 15px;
+}
+.cont h5 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+}
+.placeholder {
+  width: 180px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.book {
+  padding: 20px 40px;
+  background-color: green;
+  color: white;
+  border: none;
+  margin-top: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+}
+.image img {
+  width: 450px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.content {
+  width: 50%;
+}
+.image {
+  width: 50%;
+}
+.content h1 {
+  font-family: serif;
+  font-size: 48px;
+  color: rgb(57, 179, 255);
+  font-weight: 500;
+}
+.content h3 {
+  padding-block: 30px;
+  font-family: "poppins";
+  font-size: 30px;
+  color: green;
+  font-weight: 400;
+}
+.glamping .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.glamping {
+  margin-top: 40px;
+}
+
+.book.know {
+  display: block;
+}
+em {
+  margin-top: 40px;
+  color: green;
+  font-size: 36px;
+  display: inline-block;
+}
+.kantal img {
+  margin-left: 0px;
+}
+.second {
+  margin-top: 20px;
+  line-height: 24px;
+}
+p {
+  line-height: 24px;
+}
